@@ -1,9 +1,11 @@
 ﻿using System.Net;
+using System.Text;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+        Console.OutputEncoding = UTF8Encoding.UTF8;
         Console.WriteLine("Введіть IP адрес:");
         string str = Console.ReadLine();
         try
